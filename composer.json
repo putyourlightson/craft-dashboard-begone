@@ -1,7 +1,7 @@
 {
     "name": "putyourlightson/craft-dashboard-begone",
     "description": "Removes the dashboard and redirects users to entries.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "type": "craft-plugin",
     "homepage": "https://github.com/putyourlightson/craft-dashboard-begone",
     "license": "MIT",

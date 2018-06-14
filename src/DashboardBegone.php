@@ -19,11 +19,11 @@ class DashboardBegone extends Plugin
     {
         parent::init();
 
-        if (Craft::$app->getRequest()->getSegment(1) == 'dashboard') {
-            Craft::$app->getResponse()->redirect('entries');
-        }
-
         if (Craft::$app->getRequest()->getIsCpRequest()) {
+            if (Craft::$app->getRequest()->getSegment(1) == 'dashboard') {
+                Craft::$app->getResponse()->redirect('entries');
+            }
+
             Event::on(View::class, View::EVENT_BEFORE_RENDER_TEMPLATE, function() {
                 Craft::$app->getView()->registerCss('#nav-dashboard {display: none !important;}');
             });
