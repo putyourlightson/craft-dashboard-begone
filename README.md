@@ -1,6 +1,8 @@
-# Dashboard Begone Plugin for Craft CMS
+<p align="center"><img width="200" src="src/icon.svg"></p>
 
-The Dashboard Begone plugin removes the dashboard and redirects users to entries in  [Craft CMS](https://craftcms.com/).
+# Dashboard Begone Plugin for Craft CMS 3
+
+The Dashboard Begone plugin removes the dashboard and redirects users to the entries page in  [Craft CMS](https://craftcms.com/).
 
 ## Requirements
 
