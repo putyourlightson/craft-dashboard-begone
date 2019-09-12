@@ -4,6 +4,14 @@
 
 The Dashboard Begone plugin removes the dashboard and redirects users to the entries page in  [Craft CMS](https://craftcms.com/).
 
+## Documentation
+
+Learn more and read the documentation at [putyourlightson.com/plugins/dashboard-begone »](https://putyourlightson.com/plugins/dashboard-begone)
+
+## License
+
+This plugin is licensed for free under the MIT License.
+
 ## Requirements
 
 Craft CMS 3.0.0 or later.
