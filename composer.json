@@ -28,7 +28,7 @@
         "name": "Dashboard Begone",
         "handle": "dashboard-begone",
         "developer": "PutYourLightsOn",
-        "developerUrl": "https://www.putyourlightson.net/",
+        "developerUrl": "https://putyourlightson.com/",
         "changelogUrl": "https://raw.githubusercontent.com/putyourlightson/craft-dashboard-begone/v1/CHANGELOG.md",
         "class": "putyourlightson\\dashboardbegone\\DashboardBegone"
     }
