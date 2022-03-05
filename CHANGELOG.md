@@ -1,4 +1,8 @@
-# Dashboard Begone Changelog
+# Release Notes for Dashboard Begone
+
+## 2.0.0-alpha - 2022-03-05
+### Added
+- Added compatibility with Craft 4.
 
 ## 1.0.1 - 2018-06-14
 - Minor fix

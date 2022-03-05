@@ -12,10 +12,10 @@ use yii\base\Event;
 
 class DashboardBegone extends Plugin
 {
-    // Public Methods
-    // =========================================================================
-
-    public function init()
+    /**
+     * @inheritdoc
+     */
+    public function init(): void
     {
         parent::init();
 
@@ -24,9 +24,11 @@ class DashboardBegone extends Plugin
                 Craft::$app->getResponse()->redirect('entries');
             }
 
-            Event::on(View::class, View::EVENT_BEFORE_RENDER_TEMPLATE, function() {
-                Craft::$app->getView()->registerCss('#nav-dashboard {display: none !important;}');
-            });
+            Event::on(View::class, View::EVENT_BEFORE_RENDER_TEMPLATE,
+                function() {
+                    Craft::$app->getView()->registerCss('#nav-dashboard {display: none !important;}');
+                }
+            );
         }
     }
 }

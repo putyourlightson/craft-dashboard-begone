@@ -1,7 +1,7 @@
 {
     "name": "putyourlightson/craft-dashboard-begone",
     "description": "Removes the dashboard and redirects users to entries.",
-    "version": "1.0.1",
+    "version": "2.0.0-alpha.1",
     "type": "craft-plugin",
     "homepage": "https://github.com/putyourlightson/craft-dashboard-begone",
     "license": "MIT",
@@ -12,7 +12,7 @@
         "dashboard"
     ],
     "require": {
-        "craftcms/cms": "^3.0.1"
+        "craftcms/cms": "^4.0.0-alpha.1"
     },
     "autoload": {
         "psr-4": {
@@ -29,7 +29,7 @@
         "handle": "dashboard-begone",
         "developer": "PutYourLightsOn",
         "developerUrl": "https://putyourlightson.com/",
-        "changelogUrl": "https://raw.githubusercontent.com/putyourlightson/craft-dashboard-begone/v1/CHANGELOG.md",
+        "changelogUrl": "https://raw.githubusercontent.com/putyourlightson/craft-dashboard-begone/v2/CHANGELOG.md",
         "class": "putyourlightson\\dashboardbegone\\DashboardBegone"
     }
 }
