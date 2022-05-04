@@ -20,8 +20,9 @@ Craft CMS 3.0.0 or later.
 
 To install the plugin, search for "Dashboard Begone" in the Craft Plugin Store, or install manually using composer.
 
-        composer require putyourlightson/craft-dashboard-begone
-
+```shell
+composer require putyourlightson/craft-dashboard-begone
+```
 <small>Icon credit: sunset by Emma Mitchell from the Noun Project.</small>
 
 <small>Created by [PutYourLightsOn](https://putyourlightson.com/).</small>
